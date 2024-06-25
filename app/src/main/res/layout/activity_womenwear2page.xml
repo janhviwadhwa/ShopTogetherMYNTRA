@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#EBBDE3">
+
+    <!-- Search Bar -->
+
+    <!-- List of Categories -->
+
+    <ImageView
+        android:id="@+id/search_icon"
+        android:layout_width="42dp"
+        android:layout_height="45dp"
+        android:src="@drawable/search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="DRESSES"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.9" />
+
+    <LinearLayout
+        android:id="@+id/categories_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/search_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.8"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dresses"
+            android:text="DRESSES"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#EBBDE3"
+            android:textColor="@color/black"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tops"
+            android:text="TOPS "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#EBBDE3"
+            android:textColor="@color/black"
+            android:layout_margin="8dp" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/shorts"
+            android:text="SKIRTS | SHORTS"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#EBBDE3"
+            android:textColor="@color/black"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jeans"
+            android:text="JEANS"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#EBBDE3"
+            android:textColor="@color/black"
+            android:layout_margin="8dp" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sportswear"
+            android:text="SPORTSWEAR | SWIMWEAR"
+            android:textSize="18sp"
+            android:backgroundTint="#EBBDE3"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="8dp" />
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
