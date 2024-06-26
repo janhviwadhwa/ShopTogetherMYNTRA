@@ -49,7 +49,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/dresses"
+            android:id="@+id/polos"
             android:text="POLOS"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -60,7 +60,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/tops"
+            android:id="@+id/tshirts"
             android:text="T-SHIRTS"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -72,7 +72,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/shorts"
+            android:id="@+id/mwshorts"
             android:text="SHORTS"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -83,7 +83,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/jeans"
+            android:id="@+id/mwjeans"
             android:text="JEANS"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -95,7 +95,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/sportswear"
+            android:id="@+id/shirts"
             android:text="SHIRTS"
             android:textSize="18sp"
             android:backgroundTint="#9FD7E6"

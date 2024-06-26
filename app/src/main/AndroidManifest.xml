@@ -40,7 +40,7 @@
             android:name=".wwtops"
             android:exported="false" />
         <activity
-            android:name=".WWDresses"
+            android:name=".wwdress"
             android:exported="false" />
         <activity
             android:name=".menwear2page"
