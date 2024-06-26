@@ -3,7 +3,7 @@ package com.abc.shoptogethermyntra;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Find buttons by ID
-        Button womenWearButton = findViewById(R.id.button_womenwear);
-        Button menWearButton = findViewById(R.id.button_menwear);
+        ImageButton womenWearButton = findViewById(R.id.button_womenwear);
+        ImageButton menWearButton = findViewById(R.id.button_menwear);
 
         // Set click listeners
         womenWearButton.setOnClickListener(new View.OnClickListener() {
