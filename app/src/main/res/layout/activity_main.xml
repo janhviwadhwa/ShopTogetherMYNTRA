@@ -7,9 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Womenwear Image Button -->
-
-    <!-- Menwear Image Button -->
     <ImageButton
         android:id="@+id/button_womenwear"
         android:layout_width="0dp"

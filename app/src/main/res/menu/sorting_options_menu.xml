@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_high_to_low"
+        android:title="Starred: High to Low"/>
+    <item
+        android:id="@+id/menu_low_to_high"
+        android:title="Starred: Low to High"/>
+</menu>
