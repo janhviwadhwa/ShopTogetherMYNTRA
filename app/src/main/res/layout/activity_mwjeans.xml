@@ -74,7 +74,7 @@
                     android:layout_height="181dp"
                     android:layout_marginTop="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/mjeans1" />
+                    android:src="@drawable/mwjeans7" />
 
                 <ImageButton
                     android:id="@+id/heart_button1"
@@ -101,7 +101,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Black Jeans"
+                android:text="Blue Jeans"
                 android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
@@ -136,7 +136,7 @@
                     android:layout_height="181dp"
                     android:layout_marginTop="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/mjeans2" />
+                    android:src="@drawable/mwjeans8" />
 
                 <ImageButton
                     android:id="@+id/heart_button2"
@@ -162,7 +162,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Beige Jeans"
+                android:text="BLue Looser Jeans"
                 android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
@@ -198,7 +198,7 @@
                     android:layout_height="181dp"
                     android:layout_marginTop="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/mjeans3" />
+                    android:src="@drawable/mwjeans9" />
 
                 <ImageButton
                     android:id="@+id/heart_button3"
@@ -224,7 +224,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Dark Blue Jeans"
+                android:text="Beige Jeans"
                 android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
@@ -259,7 +259,7 @@
                     android:layout_height="181dp"
                     android:layout_marginTop="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/mjeans4" />
+                    android:src="@drawable/mwjeans1" />
 
                 <ImageButton
                     android:id="@+id/heart_button4"
@@ -321,7 +321,7 @@
                     android:layout_height="181dp"
                     android:layout_marginTop="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/mjeans5" />
+                    android:src="@drawable/mwjeans2" />
 
                 <ImageButton
                     android:id="@+id/heart_button5"

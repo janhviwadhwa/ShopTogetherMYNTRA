@@ -6,6 +6,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.PopupMenu;
 import android.widget.Spinner;
@@ -15,6 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class mwpolo extends AppCompatActivity {
     private Spinner spinnerSort;
     private ListView listView;
+    private boolean[] isHeartFilled = new boolean[6];
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +25,30 @@ public class mwpolo extends AppCompatActivity {
 
         spinnerSort = findViewById(R.id.spinner_sort);
         listView = findViewById(R.id.list_view);
-
+        ImageButton heartButton1 = findViewById(R.id.heart_button1);
+        ImageButton heartButton2 = findViewById(R.id.heart_button2);
+        ImageButton heartButton3 = findViewById(R.id.heart_button3);
+        ImageButton heartButton4 = findViewById(R.id.heart_button4);
+        ImageButton heartButton5 = findViewById(R.id.heart_button5);
+        ImageButton heartButton6 = findViewById(R.id.heart_button6);
+        ImageButton starButton1 = findViewById(R.id.star_button1);
+        ImageButton starButton2 = findViewById(R.id.star_button2);
+        ImageButton starButton3 = findViewById(R.id.star_button3);
+        ImageButton starButton4 = findViewById(R.id.star_button4);
+        ImageButton starButton5 = findViewById(R.id.star_button5);
+        ImageButton starButton6 = findViewById(R.id.star_button6);
+        setHeartClickListener(heartButton1, 0);
+        setHeartClickListener(heartButton2, 1);
+        setHeartClickListener(heartButton3, 2);
+        setHeartClickListener(heartButton4, 3);
+        setHeartClickListener(heartButton5, 4);
+        setHeartClickListener(heartButton6, 5);
+        setstarClickListener(starButton1, 0);
+        setstarClickListener(starButton2, 1);
+        setstarClickListener(starButton3, 2);
+        setstarClickListener(starButton4, 3);
+        setstarClickListener(starButton5, 4);
+        setstarClickListener(starButton6, 5);
         // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.sorting_options, android.R.layout.simple_spinner_item);
@@ -47,6 +72,32 @@ public class mwpolo extends AppCompatActivity {
         });
     }
 
+    private void setHeartClickListener(ImageButton heartButton, int index) {
+        heartButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (isHeartFilled[index]) {
+                    heartButton.setImageResource(R.drawable.heartout);
+                } else {
+                    heartButton.setImageResource(R.drawable.heartfill2);
+                }
+                isHeartFilled[index] = !isHeartFilled[index]; // Toggle the state
+            }
+        });
+    }
+    private void setstarClickListener(ImageButton starButton, int index) {
+        starButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (isHeartFilled[index]) {
+                    starButton.setImageResource(R.drawable.star1);
+                } else {
+                    starButton.setImageResource(R.drawable.starfill2);
+                }
+                isHeartFilled[index] = !isHeartFilled[index]; // Toggle the state
+            }
+        });
+    }
     private void showSortingOptions(View view) {
         PopupMenu popupMenu = new PopupMenu(this, view);
         popupMenu.getMenuInflater().inflate(R.menu.sorting_options_menu, popupMenu.getMenu());

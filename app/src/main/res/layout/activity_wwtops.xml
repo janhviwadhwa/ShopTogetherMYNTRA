@@ -84,7 +84,7 @@
                     android:layout_gravity="bottom|end"
                     android:layout_margin="8dp"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/heart1" />
+                    android:src="@drawable/heartout" />
 
                 <ImageButton
                     android:id="@+id/star_button1"
@@ -137,7 +137,7 @@
                     android:layout_height="181dp"
                     android:layout_marginTop="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/top2" />
+                    android:src="@drawable/top7" />
 
                 <ImageButton
                     android:id="@+id/heart_button2"
@@ -146,7 +146,7 @@
                     android:layout_gravity="bottom|end"
                     android:layout_margin="8dp"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/heart1" />
+                    android:src="@drawable/heartout" />
 
                 <ImageButton
                     android:id="@+id/star_button2"
@@ -163,7 +163,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Open Back Slit Top"
+                android:text="White Crop Top"
                 android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
@@ -199,7 +199,7 @@
                     android:layout_height="181dp"
                     android:layout_marginTop="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/top3" />
+                    android:src="@drawable/top8" />
 
                 <ImageButton
                     android:id="@+id/heart_button3"
@@ -208,7 +208,7 @@
                     android:layout_gravity="bottom|end"
                     android:layout_margin="8dp"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/heart1" />
+                    android:src="@drawable/heartout" />
 
                 <ImageButton
                     android:id="@+id/star_button3"
@@ -225,7 +225,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Criss-Cross Top"
+                android:text="Top"
                 android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
@@ -260,7 +260,7 @@
                     android:layout_height="181dp"
                     android:layout_marginTop="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/top4" />
+                    android:src="@drawable/top9" />
 
                 <ImageButton
                     android:id="@+id/heart_button4"
@@ -269,7 +269,7 @@
                     android:layout_gravity="bottom|end"
                     android:layout_margin="8dp"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/heart1" />
+                    android:src="@drawable/heartout" />
 
                 <ImageButton
                     android:id="@+id/star_button4"
@@ -286,7 +286,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Knot Top"
+                android:text="Blue Top"
                 android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
@@ -322,7 +322,7 @@
                     android:layout_height="181dp"
                     android:layout_marginTop="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/top5" />
+                    android:src="@drawable/top10" />
 
                 <ImageButton
                     android:id="@+id/heart_button5"
@@ -331,7 +331,7 @@
                     android:layout_gravity="bottom|end"
                     android:layout_margin="8dp"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/heart1" />
+                    android:src="@drawable/heartout" />
 
                 <ImageButton
                     android:id="@+id/star_button5"
@@ -348,7 +348,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Balloon Sleeves Top"
+                android:text="SleevlessTop"
                 android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
@@ -383,7 +383,7 @@
                     android:layout_height="181dp"
                     android:layout_marginTop="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/top6" />
+                    android:src="@drawable/top11" />
 
                 <ImageButton
                     android:id="@+id/heart_button6"
@@ -392,7 +392,7 @@
                     android:layout_gravity="bottom|end"
                     android:layout_margin="8dp"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/heart1" />
+                    android:src="@drawable/heartout" />
 
                 <ImageButton
                     android:id="@+id/star_button6"
@@ -409,7 +409,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Collar Top"
+                android:text="Jersey Top"
                 android:textColor="@android:color/black"
                 android:textSize="16sp" />
 

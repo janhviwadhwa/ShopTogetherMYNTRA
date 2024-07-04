@@ -75,7 +75,7 @@
                     android:layout_height="181dp"
                     android:layout_marginTop="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/short1" />
+                    android:src="@drawable/shorts4" />
 
                 <ImageButton
                     android:id="@+id/heart_button1"
@@ -84,7 +84,7 @@
                     android:layout_gravity="bottom|end"
                     android:layout_margin="8dp"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/heart1" />
+                    android:src="@drawable/heartout" />
 
                 <ImageButton
                     android:id="@+id/star_button1"
@@ -102,7 +102,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Floral Shorts"
+                android:text="Denim Shorts"
                 android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
@@ -137,7 +137,7 @@
                     android:layout_height="181dp"
                     android:layout_marginTop="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/short2" />
+                    android:src="@drawable/shorts6" />
 
                 <ImageButton
                     android:id="@+id/heart_button2"
@@ -146,7 +146,7 @@
                     android:layout_gravity="bottom|end"
                     android:layout_margin="8dp"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/heart1" />
+                    android:src="@drawable/heartout" />
 
                 <ImageButton
                     android:id="@+id/star_button2"
@@ -163,7 +163,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Knot Shorts"
+                android:text="White Shorts"
                 android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
@@ -199,7 +199,7 @@
                     android:layout_height="181dp"
                     android:layout_marginTop="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/short3" />
+                    android:src="@drawable/shorts8" />
 
                 <ImageButton
                     android:id="@+id/heart_button3"
@@ -208,7 +208,7 @@
                     android:layout_gravity="bottom|end"
                     android:layout_margin="8dp"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/heart1" />
+                    android:src="@drawable/heartout" />
 
                 <ImageButton
                     android:id="@+id/star_button3"
@@ -225,7 +225,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Knot Classy Shorts"
+                android:text="Banana Denim Shorts "
                 android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
@@ -260,7 +260,7 @@
                     android:layout_height="181dp"
                     android:layout_marginTop="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/skirt1" />
+                    android:src="@drawable/skirt5" />
 
                 <ImageButton
                     android:id="@+id/heart_button4"
@@ -269,7 +269,7 @@
                     android:layout_gravity="bottom|end"
                     android:layout_margin="8dp"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/heart1" />
+                    android:src="@drawable/heartout" />
 
                 <ImageButton
                     android:id="@+id/star_button4"
@@ -286,7 +286,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Mid-Length Skirt"
+                android:text="Denim Skirt"
                 android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
@@ -331,7 +331,7 @@
                     android:layout_gravity="bottom|end"
                     android:layout_margin="8dp"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/heart1" />
+                    android:src="@drawable/heartout" />
 
                 <ImageButton
                     android:id="@+id/star_button5"
@@ -392,7 +392,7 @@
                     android:layout_gravity="bottom|end"
                     android:layout_margin="8dp"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/heart1" />
+                    android:src="@drawable/heartout" />
 
                 <ImageButton
                     android:id="@+id/star_button6"

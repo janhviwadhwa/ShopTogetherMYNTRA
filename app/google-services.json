@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "612829958798",
+    "project_id": "shoptogether-e3878",
+    "storage_bucket": "shoptogether-e3878.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612829958798:android:665b0e48ba632e5018efdf",
+        "android_client_info": {
+          "package_name": "com.abc.shoptogethermyntra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARPbz3gVJvY1oDAT-0Ncfz_eFc8I-6Pu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

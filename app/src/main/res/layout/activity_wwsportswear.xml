@@ -84,7 +84,7 @@
                     android:layout_gravity="bottom|end"
                     android:layout_margin="8dp"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/heart1" />
+                    android:src="@drawable/heartout" />
 
                 <ImageButton
                     android:id="@+id/star_button1"
@@ -146,7 +146,7 @@
                     android:layout_gravity="bottom|end"
                     android:layout_margin="8dp"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/heart1" />
+                    android:src="@drawable/heartout" />
 
                 <ImageButton
                     android:id="@+id/star_button2"
@@ -208,7 +208,7 @@
                     android:layout_gravity="bottom|end"
                     android:layout_margin="8dp"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/heart1" />
+                    android:src="@drawable/heartout" />
 
                 <ImageButton
                     android:id="@+id/star_button3"
@@ -269,7 +269,7 @@
                     android:layout_gravity="bottom|end"
                     android:layout_margin="8dp"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/heart1" />
+                    android:src="@drawable/heartout" />
 
                 <ImageButton
                     android:id="@+id/star_button4"
@@ -322,7 +322,7 @@
                     android:layout_height="181dp"
                     android:layout_marginTop="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/swimwear2" />
+                    android:src="@drawable/swimsuit4" />
 
                 <ImageButton
                     android:id="@+id/heart_button5"
@@ -331,7 +331,7 @@
                     android:layout_gravity="bottom|end"
                     android:layout_margin="8dp"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/heart1" />
+                    android:src="@drawable/heartout" />
 
                 <ImageButton
                     android:id="@+id/star_button5"
@@ -383,7 +383,7 @@
                     android:layout_height="181dp"
                     android:layout_marginTop="16dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/swimwear3" />
+                    android:src="@drawable/swimsuit1" />
 
                 <ImageButton
                     android:id="@+id/heart_button6"
@@ -392,7 +392,7 @@
                     android:layout_gravity="bottom|end"
                     android:layout_margin="8dp"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/heart1" />
+                    android:src="@drawable/heartout" />
 
                 <ImageButton
                     android:id="@+id/star_button6"
@@ -409,7 +409,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="8dp"
-                android:text="Black Floral Swimsuit"
+                android:text="Multicolours Swimsuit"
                 android:textColor="@android:color/black"
                 android:textSize="16sp" />
 
